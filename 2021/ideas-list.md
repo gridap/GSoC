@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam turpis neque, ma
 
 | **Intensity** | **Priority** | **Goal**  | **Mentors**  |
 | -------------                          | ------------              | ------------- | -----------              |
-| Moderate  |  Medium  | Vizualize the potential bridges applied to a model. Very useful for debugging and performance improvement. |  [Francesc Verdugo](https://github.com/fverdugo) and XXX|
+| Moderate  |  Medium  | Short statement of the project goal |  [Francesc Verdugo](https://github.com/fverdugo) and XXX|
 
 #### Helpful Experience
 
