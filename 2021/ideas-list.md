@@ -15,6 +15,18 @@
 *As reference we have this example from previous year: https://github.com/jump-dev/GSOC2020/blob/master/ideas-list.md*
 
 
+### GridapMakie
+
+#### Abstract
+
+| **Intensity** | **Priority** | **Goal**  | **Mentors**  |
+| -------------                          | ------------              | ------------- | -----------              |
+| Moderate  |  Medium  | to-do |  [Francesc Verdugo](https://github.com/fverdugo) and [Jan Weidner](https://github.com/jw3126)
+
+#### Helpful Experience
+
+#### First steps
+
 ### Catchy project name (use this as template)
 
 #### Abstract
