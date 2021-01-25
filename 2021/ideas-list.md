@@ -8,6 +8,7 @@
 ## Mentors
 
 - [Francesc Verdugo](https://github.com/fverdugo)
+- [Jan Weidner](https://github.com/jw3126)
 - Add your name here 
 
 ## Project ideas
