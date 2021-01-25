@@ -31,7 +31,6 @@ The visualization of numerical results is an important part of FE computations. 
 - Prior work with Gridap.jl
 - Prior work with Makie.jl (not mandatory)
 
-#### First steps
 
 ### Catchy project name (use this as template)
 
