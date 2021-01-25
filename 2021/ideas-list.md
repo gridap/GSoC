@@ -15,15 +15,25 @@
 *As reference we have this example from previous year: https://github.com/jump-dev/GSOC2020/blob/master/ideas-list.md*
 
 
-### GridapMakie
+### GridapMakie.jl: visualization of Gridap.jl computations in Julia via the Makie.jl framework.
 
 #### Abstract
 
+The visualization of numerical results is an important part of FE computations. It is a vital tool to inspect the computed solutions either with debugging purposes or to generate publication-ready quality images and animations.
+
+
+
+It is needed at several stages,  the development stage, to inspect the computed solution with debugging purposes, and also in order release of numerical results in form of publication-ready quality images and animations.  The current way of visualizing results in Gridap is to write visualization data to disk in `vtu` format and open the resulting file in [Paraview](https://www.paraview.org/). This allows one to leverage the excellent capabilities of Paraview, but it posses challenges when it comes to generate visualizations from Julia code directly or to manipulate visualization data with packages of the Julia open-source package ecosystem. For this reason, we plan plan to adopt [Makie.jl](https://github.com/JuliaPlots/Makie.jl) as a second visualization back-end for Gridap.jl simulations. Makie.jl is a GPU-accelerated high-level visualization library written in Julia. It allows to generate publication-ready quality images and animations in different file formats and to display data interactively from jupyther or [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks and VSCode side panels, see the [Makie.jl examples](https://github.com/JuliaPlots/Makie.jl#examples-from-the-documentation) for further details. Makie is extensible via so-called *plot recipies*, which allow one to define how user-defined types are visualized. The main task in this project will be to define a set of plot recipes for several types defined in Gridap, with the final goal of visualizing Gridap.jl simulations from Julia scripts directly and allowing one to leverage all features of Makie.jl and other projects from the Julia ecosystem. This work will result in the release of the [GridapMakie.jl](https://github.com/gridap/GridapMakie.jl) package. At this moment, GridapMakie.jl contains a incomplete draft implementation of some recipes. The main role of the GSoC student will be to grow this project, document it and finally release it in the official [Julia package registry](https://github.com/JuliaRegistries/General).
+
 | **Intensity** | **Priority** | **Goal**  | **Mentors**  |
 | -------------                          | ------------              | ------------- | -----------              |
-| Moderate  |  Medium  | to-do |  [Francesc Verdugo](https://github.com/fverdugo) and [Jan Weidner](https://github.com/jw3126)
+| Moderate  |  Medium  | Visualize Gridap.jl simulations in Julia via Makie.jl. Develop and release this work in the GridapMakie.jl package. |  [Francesc Verdugo](https://github.com/fverdugo) and [Jan Weidner](https://github.com/jw3126)
 
 #### Helpful Experience
+
+- Basic knowledge of Julia
+- Prior work with Gridap.jl
+- Prior work with Makie.jl (not mandatory)
 
 #### First steps
 
