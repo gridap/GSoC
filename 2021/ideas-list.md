@@ -13,7 +13,7 @@
 
 ## Project ideas
 
-### GridapMakie.jl: visualization of Gridap.jl computations in Julia via the Makie.jl.
+### GridapMakie.jl: visualization of Gridap.jl computations in Julia via Makie.jl.
 
 #### Abstract
 
