@@ -12,9 +12,6 @@
 
 ## Project ideas
 
-*As reference we have this example from previous year: https://github.com/jump-dev/GSOC2020/blob/master/ideas-list.md*
-
-
 ### GridapMakie.jl: visualization of Gridap.jl computations in Julia via the Makie.jl.
 
 #### Abstract
@@ -33,7 +30,7 @@ The visualization of numerical results is an important part of FE computations. 
 
 
 ### Catchy project name (use this as template)
-
+*As reference we have this example from previous year: https://github.com/jump-dev/GSOC2020/blob/master/ideas-list.md*
 #### Abstract
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam turpis neque, malesuada sit amet efficitur ac, tincidunt quis lorem. Duis ullamcorper nisl eu nunc tincidunt sagittis. Fusce vel quam a est eleifend consectetur non a nisi. Nullam ac libero id neque dignissim tempus id vitae justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In tincidunt vitae dui vitae euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id pharetra nisl, in facilisis neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum pulvinar ornare neque, non maximus mi.
