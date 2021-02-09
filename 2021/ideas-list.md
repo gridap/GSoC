@@ -29,6 +29,20 @@ The visualization of numerical results is an important part of FE computations. 
 - Prior work with Gridap.jl
 - Prior work with Makie.jl (not mandatory)
 
+### GridapFlux.jl: Gridap.jl data-driven applications via Flux.jl
+
+#### Abstract
+Data science and numerical approximation of Partial Differential Equations (PDEs) are converging in a wide range of exciting ways, from data-driven solution of forward and inverse PDE problems to data-driven discovery of PDEs. The goal of this project is to enable data-driven simulations in Gridap.jl supported by the 100% pure-Julia machine learning library [Flux.jl](https://github.com/FluxML/Flux.jl). This work will result in the release of the GridapFlux.jl package. The main role of the GSoC student in this project will be to develop the new GridapFlux.jl package, document it and, finally, release it in the official [Julia package registry](https://github.com/JuliaRegistries/General).
+
+| **Intensity** | **Priority** | **Goal**  | **Mentors**  |
+| -------------                          | ------------              | ------------- | -----------              |
+| Moderate  |  Medium  | Enable Gridap.jl data-driven applications via Flux.jl |  [Santiago Badia](https://github.com/santiagobadia) and [Eric Neiva](https://github.com/ericneiva) |
+
+#### Helpful Experience
+
+- Basic knowledge of Julia
+- Prior work with Gridap.jl
+- Prior work with Flux.jl (not mandatory)
 
 ### Catchy project name (use this as template)
 *As reference we have this example from previous year: https://github.com/jump-dev/GSOC2020/blob/master/ideas-list.md*
