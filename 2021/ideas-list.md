@@ -1,5 +1,6 @@
 # ⚡ Important information for interested students  ⚡
 - Read the [get started page of GSoC2021](https://summerofcode.withgoogle.com/get-started/)
+-  Remember that Gridap participates in GSoC2021 via the [NumFOCUS umbrella](https://summerofcode.withgoogle.com/organizations/5765643267211264/)
 - Read this ideas page carefully
 - Think on how you can contribute to the Gridap project based on this ideas page and your expertise
 - Contact us before applying via our [Gitter chat](https://gitter.im/Gridap-jl/community)  to find a suitable topic for your proposal
