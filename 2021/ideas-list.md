@@ -1,4 +1,4 @@
-⚡ **Important information for interested students**  ⚡
+# ⚡ Important information for interested students  ⚡
 - Read the [get started page of GSoC2021](https://summerofcode.withgoogle.com/get-started/)
 - Read this ideas page carefully
 - Think on how you can contribute to the Gridap project based on this ideas page and your expertise
