@@ -34,7 +34,7 @@ The visualization of numerical results is an important part of FE computations. 
 
 - Basic knowledge of Julia
 - Prior work with Gridap.jl
-- Prior work with Makie.jl (not mandatory)
+- Prior work with Makie.jl
 
 ### GridapFlux.jl: Gridap.jl data-driven applications via Flux.jl
 
