@@ -16,6 +16,7 @@
 In alphabetical order
 - [Santiago Badia](https://github.com/santiagobadia)
 - [Eric Neiva](https://github.com/ericneiva)
+- [Oriol Colomés](https://github.com/oriolcg)
 - [Francesc Verdugo](https://github.com/fverdugo)
 - [Jan Weidner](https://github.com/jw3126)
 
@@ -44,7 +45,7 @@ Data science and numerical approximation of Partial Differential Equations (PDEs
 
 | **Intensity** | **Priority** | **Goal**  | **Mentors**  |
 | -------------                          | ------------              | ------------- | -----------              |
-| Moderate  |  Medium  | Enable Gridap.jl data-driven applications via Flux.jl |  [Santiago Badia](https://github.com/santiagobadia) and [Eric Neiva](https://github.com/ericneiva) |
+| Moderate  |  Medium  | Enable Gridap.jl data-driven applications via Flux.jl |  [Santiago Badia](https://github.com/santiagobadia), [Oriol Colomés](https://github.com/oriolcg) and [Eric Neiva](https://github.com/ericneiva) |
 
 #### Helpful Experience
 
