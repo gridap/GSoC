@@ -4,7 +4,7 @@
 - Read this ideas page carefully
 - Think on how you can contribute to the Gridap project based on this ideas page, your expertise, and your interests
 - Contact us before applying via our [Gitter chat](https://gitter.im/Gridap-jl/community) to find a suitable topic for your proposal
-- Ask any questions you have on the application process [on this issue](https://github.com/gridap/GSoC/issues)
+- Ask any questions you have on the application process [on this issue](https://github.com/gridap/GSoC/issues/6)
 
 # Gridap.jl
 
