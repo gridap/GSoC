@@ -44,7 +44,7 @@ The numerical approximation of PDEs using finite element and finite volume metho
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  Medium  | Moderate | Long or short  | Implement general polytopes and quadratures in `Gridap.jl`. Combine them with DG and hybridised methods in `Gridap.jl` and `GridapHybrid.jl`. |  [Santiago Badia](https://github.com/santiagobadia)
+|  Medium  | Moderate | Long or short depending on student expertise | Implement general polytopes and quadratures in `Gridap.jl`. Combine them with DG and hybridised methods in `Gridap.jl` and `GridapHybrid.jl`. |  [Santiago Badia](https://github.com/santiagobadia)
 
 
 
