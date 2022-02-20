@@ -53,4 +53,4 @@ In many engineering and scientific applications there is the need to find soluti
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  Medium  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` and `GridapODEs.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg) and [Francesc Verdugo](https://github.com/fverdugo)
+|  Medium  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` and `GridapODEs.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg), [Santiago Badia](https://github.com/santiagobadia) and [Francesc Verdugo](https://github.com/fverdugo)
