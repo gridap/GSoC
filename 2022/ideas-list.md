@@ -29,14 +29,14 @@ Adaptive mesh refinement (AMR) is a numerical tool used to efficiently exploit c
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  High  | Moderate | Long or short depending on student expertise | Implement hanging-node support in Gridap.jl. Develop, document, and open a PR against the master branch of Gridap.jl. |  [Francesc Verdugo](https://github.com/fverdugo), [Alberto F. Martin](https://github.com/amartinhuertas) and [Eric Neiva](https://github.com/ericneiva)
+|  High  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Implement hanging-node support in Gridap.jl. Develop, document, and open a PR against the master branch of Gridap.jl. |  [Francesc Verdugo](https://github.com/fverdugo), [Alberto F. Martin](https://github.com/amartinhuertas) and [Eric Neiva](https://github.com/ericneiva)
 
 ### Advanced visualization of finite element simulations in Julia with GridapMakie.jl.
 The visualization of numerical results is an important part of finite element (FE) computations. It is a vital tool to inspect the computed solutions either for debugging purposes or to generate publication-ready quality images and animations. The conventional way of visualizing data resulting from FE simulations in Gridap.jl is to write vtu files to disk and use [Paraview](https://www.paraview.org/) to visualize them. This allows one to leverage the excellent and feature-rich visualization capabilities of Paraview, but it poses challenges when it comes to inspect data visually from Julia code directly or to manipulate it with packages of the Julia open-source package ecosystem. For this reason, in the last edition of Google summer of code, we developed a first release of [GridapMakie.jl](https://github.com/gridap/GridapMakie.jl), a package for the visualization of Gridap.jl data structures using [Makie.jl](https://github.com/JuliaPlots/Makie.jl). This first release, provides support for visualization of scalar fields on computational meshes of triangular and tetrahedral elements and provides also reactive *plot recipies* that allow one to easily generate interactive plots and animations. This functionality already accounts for an important share of the visualization needs in FE computations, but several important features are still missing. In this new, project we plan to enrich GridapMakie.jl with new visualization tools such as support for quadrilateral and hexahedral elements, the visualization of vector-values fields, clipping and slicing of computational grids, etc. We also want to improve the user experience, when generating interactive plots in Jupyter or [Pluto.jl](https://github.com/fonsp/Pluto.jl) notebooks, and VSCode side panels. This work will result in a second release of GridapMakie.jl with the new features. The main role of the GSoC student will be to further develop GridapMakie.jl, document it and, finally, release it in the official [Julia package registry](https://github.com/JuliaRegistries/General).
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  Medium  | Moderate | Long or short  | Implement advanced visualization techniques in GridapMakie.jl. Develop, document and release a new version the GridapMakie.jl package. |  [Francesc Verdugo](https://github.com/fverdugo)
+|  Medium  | Moderate | Long (~350hr) or Medium (~175hr)  | Implement advanced visualization techniques in GridapMakie.jl. Develop, document and release a new version the GridapMakie.jl package. |  [Francesc Verdugo](https://github.com/fverdugo)
 
 ### Discretisation techniques on general polytopes 
 
@@ -44,7 +44,7 @@ The numerical approximation of PDEs using finite element and finite volume metho
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  Medium  | Moderate | Long or short depending on student expertise | Implement general polytopes and quadratures in `Gridap.jl`. Combine them with DG and hybridised methods in `Gridap.jl` and `GridapHybrid.jl`. | [Santiago Badia](https://github.com/santiagobadia), [Alberto F. Martin](https://github.com/amartinhuertas) and [Eric Neiva](https://github.com/ericneiva)
+|  Medium  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Implement general polytopes and quadratures in `Gridap.jl`. Combine them with DG and hybridised methods in `Gridap.jl` and `GridapHybrid.jl`. | [Santiago Badia](https://github.com/santiagobadia), [Alberto F. Martin](https://github.com/amartinhuertas) and [Eric Neiva](https://github.com/ericneiva)
 
 
 ### Adjoint-based PDE-constrained optimization
@@ -53,4 +53,4 @@ In many engineering and scientific applications there is the need to find soluti
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  Medium  | Moderate | Long or short depending on student expertise | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` and `GridapODEs.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg) and [Francesc Verdugo](https://github.com/fverdugo)
+|  Medium  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` and `GridapODEs.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg) and [Francesc Verdugo](https://github.com/fverdugo)
