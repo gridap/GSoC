@@ -24,6 +24,14 @@ Large finite element computations based on Gridap can be deployed in distributed
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  High  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Provide a default distributed sparse linear solver to GridapDistributed and PartitionedArrays | [Francesc Verdugo](https://github.com/fverdugo)
+|  High  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Provide a default distributed sparse linear solver to GridapDistributed and PartitionedArrays | [Francesc Verdugo](https://github.com/fverdugo) and [Oriol Colomés](https://github.com/oriolcg)
+
+### Adjoint-based PDE-constrained optimization
+
+In many engineering and scientific applications there is the need to find solutions to optimization problems where the variables are constrained by certain PDEs. That is the case of inverse problems where one is interested in finding the optimal set of parameters such that the solution matches with observations, or design optimization problems where one wants to find the optimal parameter that maximizes or minimizes a quantity of interest. Most efficient optimization solvers rely on the derivative of the optimization functional with respect to the parameters, which can be obtained from the adjoint of the forward problem. One of the major challenges appears when dealing with transient PDEs and time-dependent parameters. In that case, the forward problem is integrated forward in time and stored in memory so that it can be used by the adjoint problem that is solved backwards. In this project we propose to create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` as a solver for the forward problem. The goal is to take advantage of Automatic Differentiation capabilities of *Julia* to automate the optimization process. The student working on this project will first start with the definition of a general API for optimization problems using discrete adjoints of steady forward problems. Next, we will work in forward/backward time marching schemes for adjoints in transient problems. Finally, we will implement checkpointing schemes to limit the memory consumption in the computation of adjoints of time-dependent problems.
+
+| **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
+| ------------ | ------------- | ---------------- | --------- | ----------- |
+|  Medium  | Moderate | Long (~350hr) or Medium (~175hr) depending on student expertise | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` and `GridapODEs.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg) and [Francesc Verdugo](https://github.com/fverdugo)
 
 
