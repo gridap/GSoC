@@ -14,6 +14,7 @@
 ## Mentors
 
 In alphabetical order
+- [Oriol Colomés](https://github.com/oriolcg)
 - [Francesc Verdugo](https://github.com/fverdugo)
 
 ## Project ideas
