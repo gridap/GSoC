@@ -20,6 +20,6 @@ In alphabetical order
 
 ## Project ideas
 
-### Leverage Auto-matic differentiation rules in GridapDistributed API
+### Leverage Auto-matic differentiation rules in GridapDistributed API and Multi-field Spaces
 
 Auto-matic differentiation helps users generate a fully implicit abstract back-end for computing the jacobians and residuals of the weak-form PDEs, which is very useful especially when the cost of deriving the residuals and jacobians using tradiational approaches like variational formulation and virtual work methods is very expensive. Current Gridap API only supports AD for use cases that involve serial implementation of FEM routines and single field spaces, however, things get complicated in the cases of solving problems that involves multi-scale PDEs and interface coupled multi-physics problems that needs to define multi fields in different domains inside the mesh. Besides, the AD functionality can also be computationally extremely useful in implementing parallel routines under the hood of GridapDistributed API, where the jacobians and residuals can be computed parallely for each of the grid inside the mesh. This process of automating the computation of residuals and jacobians can also be extended in transient state problems as well.
