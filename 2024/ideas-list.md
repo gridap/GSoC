@@ -16,10 +16,15 @@ This page is under construction 🔨
 ## Mentors
 
 In alphabetical order
-- Person 1
-- Person 2
+- [Francesc Verdugo](https://github.com/fverdugo)
 
 ## Project ideas
 
-WIP
+### Parallel algebraic multigrid in Julia
+
+Algebraic multigrid (AMG) methods are among the most popular techniques to solve large systems of linear algebraic equations on supercomputers. Even though AMG schemes are key in many high-performance computing (HPC) applications, there are not many Julia alternatives available. AMG methods have beed implemented in pure Julia in AlgebraicMultigrid.jl [2], which is a very valuable tool for the Julia community, but its implementation is sequential and thus not suitable for large-scale problems on supercomputers. Parallel AMG schemes remain available almost exclusively in packages with a long history such as PETSc and Hypre, and implemented in traditional HPC languages like Fortran and C/C++. Even though these packages can be used from Julia via bindings (see e.g. HYPRE.jl), a modern Julia implementation of parallel AMG methods is still missing. Without this implementation, the Julia package ecosystem misses a key feature in its otherwise rich scientific computing toolkit. In this project, the student will contribute to the current effort of implementing parallel AMG schemes in Julia withing the PartitionedArrays.jl package. This will allow Gridap.jl and other Julia packages to consider AMG methods in large-scale parallel computations. 
+
+| **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
+| ------------ | ------------- | ---------------- | --------- | ----------- |
+|  High  | Moderate | Long (~350hr) | Implementation of parallel algebraic multigrid methods in Julia using PartitionedArrays.jl | [Francesc Verdugo](https://github.com/fverdugo) |
 
