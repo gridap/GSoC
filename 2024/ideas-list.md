@@ -17,6 +17,7 @@ This page is under construction 🔨
 
 In alphabetical order
 - [Francesc Verdugo](https://github.com/fverdugo)
+- [Oriol Colomés](https://github.com/oriolcg)
 
 ## Project ideas
 
