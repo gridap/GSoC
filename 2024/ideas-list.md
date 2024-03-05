@@ -28,7 +28,7 @@ Algebraic multigrid (AMG) methods are among the most popular techniques to solve
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  High  | Moderate | Long (~350hr) | Implementation of parallel algebraic multigrid methods in Julia using PartitionedArrays.jl | [Francesc Verdugo](https://github.com/fverdugo) and [Alberto F. Martin](https://github.com/amartinhuertas) |
+|  High  | Moderate | Long (~350hr) | Implementation of parallel algebraic multigrid methods in Julia using PartitionedArrays.jl | [Francesc Verdugo](https://github.com/fverdugo), [Alberto F. Martin](https://github.com/amartinhuertas), and [Oriol Colomés](https://github.com/oriolcg) |
 
 ### Adjoint-based PDE-constrained optimization
 
@@ -36,4 +36,4 @@ In many engineering and scientific applications there is the need to find soluti
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  Medium  | Moderate | Long (~350hr) | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg)
+|  Medium  | Moderate | Long (~350hr) | Create a general framework to compute adjoints, and use them in optimization problems, using `Gridap.jl` as a solvers for the forward problem. | [Oriol Colomés](https://github.com/oriolcg) and [Francesc Verdugo](https://github.com/fverdugo) |
