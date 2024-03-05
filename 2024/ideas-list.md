@@ -16,9 +16,9 @@ This page is under construction 🔨
 ## Mentors
 
 In alphabetical order
+- [Alberto F. Martin](https://github.com/amartinhuertas)
 - [Francesc Verdugo](https://github.com/fverdugo)
 - [Oriol Colomés](https://github.com/oriolcg)
-- [Alberto F. Martin](https://github.com/amartinhuertas)
 
 ## Project ideas
 
