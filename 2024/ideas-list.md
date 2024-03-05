@@ -18,6 +18,7 @@ This page is under construction 🔨
 In alphabetical order
 - [Francesc Verdugo](https://github.com/fverdugo)
 - [Oriol Colomés](https://github.com/oriolcg)
+- [Alberto F. Martin](https://github.com/amartinhuertas)
 
 ## Project ideas
 
@@ -27,7 +28,7 @@ Algebraic multigrid (AMG) methods are among the most popular techniques to solve
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  High  | Moderate | Long (~350hr) | Implementation of parallel algebraic multigrid methods in Julia using PartitionedArrays.jl | [Francesc Verdugo](https://github.com/fverdugo) |
+|  High  | Moderate | Long (~350hr) | Implementation of parallel algebraic multigrid methods in Julia using PartitionedArrays.jl | [Francesc Verdugo](https://github.com/fverdugo) and [Alberto F. Martin](https://github.com/amartinhuertas) |
 
 ### Adjoint-based PDE-constrained optimization
 
