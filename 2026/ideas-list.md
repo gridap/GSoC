@@ -10,7 +10,6 @@
 
 [Gridap.jl](https://github.com/gridap/Gridap.jl) is a new generation, open-source, finite element (FE) library implemented in the Julia programming language. Gridap.jl aims at adopting a more modern programming style than existing FE applications written in C/C++ or Fortran.  The library is currently able to solve linear and nonlinear partial differential equations (PDEs) for scalar and vector fields, single and multi-field problems, conforming and nonconforming FE discretizations, on structured and unstructured meshes of simplices and n-cubes. Gridap is extensible and modular. One can implement new FE spaces, new reference elements, use external mesh generators, linear solvers, post-processing tools, etc. See, e.g., the list of available Gridap plugins.
 
-
 ## Mentors
 
 In alphabetical order
@@ -20,3 +19,17 @@ In alphabetical order
 ## Project ideas
 
 This page is under construction 🔨
+
+## AI disclosure policy
+
+All GSoC-related issues and pull requests must disclose AI usage.
+
+If AI tools were used, end the issue or PR with a sentence beginning:
+
+    AI assistance was used for ...
+
+If no AI tools were used at all, end with the sentence:
+
+    No AI tools were used in this contribution.
+
+Submissions that omit a disclosure may be closed without review.
