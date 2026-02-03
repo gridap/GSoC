@@ -18,7 +18,13 @@ In alphabetical order
 
 ## Project ideas
 
-This page is under construction 🔨
+### Reduced order modelling with neural operators
+
+Numerical simulation of partial differential equations (PDEs) is a cornerstone of scientific computing, but remains computationally expensive when many-query evaluations are required, such as in parameter studies, inverse problems, or real-time applications. In this project, we propose the student to design and implement a general framework for extracting reduced order models (ROMs) based on neural operators that are trained with finite element method (FEM) solutions generated with Gridap.jl. The project will leverage the rich Julia package ecosystem, combining Gridap.jl, NeuralOperators.jl, GridapROMs.jl, among others.
+
+| **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
+| ------------ | ------------- | ---------------- | --------- | ----------- |
+|  High  | Moderate | Medium (~175hr) | Reduced order models with neural operators in Gridap.jl |[Eric Neiva](https://github.com/ericneiva) and [Martina Gatti](https://github.com/martinagatti) |
 
 ## AI disclosure policy
 
