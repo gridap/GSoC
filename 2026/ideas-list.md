@@ -26,7 +26,7 @@ Numerical simulation of partial differential equations (PDEs) is a cornerstone o
 
 | **Priority** | **Intensity** | **Project type** | **Goal**  | **Mentors** |
 | ------------ | ------------- | ---------------- | --------- | ----------- |
-|  High  | Moderate | Medium (~175hr) | Reduced order models with neural operators in Gridap.jl | [Eric Neiva](https://github.com/ericneiva), [Martina Gatti](https://github.com/martinagatti), [Nicholas Mueller](https://github.com/nichomueller) and [Oriol Colomés](https://github.com/oriolcg) |
+|  High  | Moderate | Medium (~175hr) | Reduced order models with neural operators in Gridap.jl | [Eric Neiva](https://github.com/ericneiva), [Martina Gatti](https://github.com/martinagatti) and [Nicholas Mueller](https://github.com/nichomueller) |
 
 ## AI disclosure policy
 
